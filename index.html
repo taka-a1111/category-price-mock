@@ -11,16 +11,16 @@ a{text-decoration:none;color:inherit}
 .cat-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:18px 0 8px}
 .cat-card{border:1px solid #dcdcdc;background:#fff;display:flex;flex-direction:column;transition:box-shadow .15s,transform .15s}
 .cat-card:hover{box-shadow:0 4px 14px rgba(0,0,0,.10)}
-.cat-card .ph{padding:10px}
+.cat-card .ph{padding:10px 10px 0}
 .cat-card img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block}
-.cat-card .clabel{text-align:center;padding:9px 8px 8px;font-size:15px;font-weight:500;color:#333}
+.cat-card .clabel{text-align:center;padding:4px 8px 4px;font-size:15px;font-weight:500;color:#333}
 /* price buttons (image3 cream) */
 .price-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:18px 0 30px}
-.price-btn{position:relative;display:flex;align-items:center;justify-content:center;height:64px;background:#f2f2f2;border:1px solid #ececec;border-radius:3px;box-shadow:0 2px 3px rgba(0,0,0,.10);color:#1a1a1a;font-family:"Shippori Mincho",serif;font-size:38px;font-weight:700;letter-spacing:.01em;transition:background .15s}
+.price-btn{position:relative;display:flex;align-items:center;justify-content:center;height:64px;background:#f2f2f2;border:1px solid #ececec;border-radius:3px;box-shadow:0 2px 3px rgba(0,0,0,.10);color:#1a1a1a;font-family:"Shippori Mincho",serif;font-size:30px;font-weight:700;letter-spacing:.01em;transition:background .15s}
 .price-btn:hover{background:#eaeaea}
 .price-btn .yen{font-size:.55em;margin:0 .02em;position:relative;top:.4em}
 .price-btn::after{content:"";position:absolute;right:18px;top:50%;width:10px;height:10px;border-top:2.6px solid #333;border-right:2.6px solid #333;transform:translateY(-50%) rotate(45deg)}
-@media(max-width:420px){.price-btn{font-size:29px;height:56px}.price-btn::after{right:12px;width:9px;height:9px}.cat-card .clabel{font-size:14px}}
+@media(max-width:420px){.price-btn{font-size:23px;height:56px}.price-btn::after{right:12px;width:9px;height:9px}.cat-card .clabel{font-size:14px}}
 @media(max-width:768px){.price-btn::after{display:none}}
 </style></head><body>
 <div class="wrap">
